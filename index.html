@@ -12,11 +12,34 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+
     <title>T.O.P. - Etch-a-sketch!</title>
 
   </head>
 
   <body>
+
+    <header id="header-section">
+      <h1>Etch-a-sketch!</h1>
+    </header>
+
+    <main id="main-section">
+
+      <div id="controls-bar">
+        <h3>Controls</h3>
+
+        <h4>Resolution</h4>
+        <p id="resolution-el">0x0</p>
+        <input type="range" id="range-el" min="1" max="64" value="32">
+
+        <h4>Color</h4>
+        <input type="color" id="color-el">
+      </div>
+
+      <div class="boxes-container"></div>
+
+    </main>
 
     <script src="js/main.js"></script>
 
