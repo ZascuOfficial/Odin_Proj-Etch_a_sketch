@@ -4,4 +4,4 @@ My second project in the JavaScript section of the Odin Project curriculum, that
 
 "The Odin Project" curriculum - https://theodinproject.com/
 
-The Website Page - (Unknown)
+The Website Page - https://zascuofficial.github.io/Odin_Proj-Etch_a_sketch/
