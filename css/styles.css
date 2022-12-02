@@ -56,8 +56,13 @@ body {
   font-size: 18px;
 }
 
+#color-el {
+  padding: 0;
+  border: none;
+}
+
 .box {
-  border: 1px solid var(--dark-gray);
+  border: 1px solid #777;
 }
 
 .boxes-container {
